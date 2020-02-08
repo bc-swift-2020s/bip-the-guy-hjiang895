@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bip the guy image" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-xg-Rk0">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bip the guy image" translatesAutoresizingMaskIntoConstraints="NO" id="AUs-xg-Rk0">
                                 <rect key="frame" x="16" y="20" width="288" height="332.5"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="yq9-9I-QtM" appends="YES" id="pLh-PL-Xjq"/>
+                                    <outletCollection property="gestureRecognizers" destination="DcP-Vc-v8B" appends="YES" id="bgz-F1-5bs"/>
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="hyS-mr-7XI">
@@ -70,9 +70,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="yq9-9I-QtM">
+                <tapGestureRecognizer id="DcP-Vc-v8B">
                     <connections>
-                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="jdR-m4-6vl"/>
+                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="8AQ-ki-L28"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
